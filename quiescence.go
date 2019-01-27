@@ -1,4 +1,5 @@
 // Package quiescence defines a "quiescence waiter" type.
+// It allows a caller to wait until some resource has gone quiet for a given amount of time.
 package quiescence
 
 import (
